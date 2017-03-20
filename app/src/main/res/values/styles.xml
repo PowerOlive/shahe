@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="moon_menu">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:background">@drawable/md_title</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="moon_title">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="moon_info">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="moon_id">
+        <item name="android:textColor">@color/major</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="moon_tip">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="moon_item">
+        <item name="android:padding">20dp</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="moon_button">
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/md_button</item>
+    </style>
+
+    <style name="moon_edit">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:background">@drawable/md_edit</item>
+    </style>
+
+    <style name="moon_text">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+    <style name="moon_switch">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:src">@drawable/switch_off</item>
+    </style>
+
+    <style name="moon_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

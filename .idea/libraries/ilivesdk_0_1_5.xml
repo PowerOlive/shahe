@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="ilivesdk-0.1.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.tencent.ilivesdk/ilivesdk/0.1.5/jars/libs/qavsdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.tencent.ilivesdk/ilivesdk/0.1.5/jars/libs/tls_sdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.tencent.ilivesdk/ilivesdk/0.1.5/jars/libs/barcodescanner-core-1.8.4.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.tencent.ilivesdk/ilivesdk/0.1.5/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.tencent.ilivesdk/ilivesdk/0.1.5/jars/libs/wup-1.0.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.tencent.ilivesdk/ilivesdk/0.1.5/jars/libs/imsdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.tencent.ilivesdk/ilivesdk/0.1.5/jars/libs/mobilepb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.tencent.ilivesdk/ilivesdk/0.1.5/jars/libs/qalsdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.tencent.ilivesdk/ilivesdk/0.1.5/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.tencent.ilivesdk/ilivesdk/0.1.5/jars/libs/beacon_android_v1.9.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tencent.ilivesdk/ilivesdk/0.1.5/89a40b2ac45ce5c64743a5b8cb447b26f2b0e87d/ilivesdk-0.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

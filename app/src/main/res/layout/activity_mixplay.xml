@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.tencent.rtmp.ui.TXCloudVideoView
+        android:id="@+id/txcvv_player"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <com.tencent.ilivesdk.view.AVRootView
+        android:id="@+id/avrv_screen"
+        android:layout_margin="20dp"
+        android:layout_gravity="top"
+        android:layout_width="0dp"
+        android:layout_height="128dp" />
+    <TextView
+        android:id="@+id/tv_log"
+        android:gravity="bottom"
+        android:textColor="@color/major"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/tv_exit"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:background="@drawable/md_exit"
+        android:onClick="onClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>

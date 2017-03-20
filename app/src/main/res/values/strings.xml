@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">月光沙盒</string>
+
+    <string name="title_login">用户名登录</string>
+    <string name="title_regist">用户名注册</string>
+    <string name="title_list">播放列表</string>
+    <string name="title_create">创建视频</string>
+
+    <string name="create_custom_title">标题</string>
+    <string name="create_custom_description">描述</string>
+    <string name="create_custom_push">自定义推流地址</string>
+    <string name="create_custom_play">自定义播放地址</string>
+    <string name="create_option">开播组件</string>
+    <string name="create_custom_rtmp">播放RTMP</string>
+    <string name="create_custom_interact">连接互动</string>
+
+    <string name="hit_default_title">频道1</string>
+    <string name="hit_account">用户名</string>
+    <string name="hit_password">密码</string>
+    <string name="hit_push_url">输入推流地址</string>
+    <string name="hit_play_url">输入播放地址</string>
+    <string name="hit_create_empty">播放地址不能为空</string>
+    <string name="hit_create_invalid_url">播放地址不合法，目前仅支持rtmp和flv两种播放方式!</string>
+    <string name="hit_creating">正在创建中</string>
+    <string name="hit_regist_account">用户名为4~24个字符</string>
+    <string name="hit_regist_password">密码长度为8~16个字符</string>
+    <string name="hit_special_chat">不允许特殊字符</string>
+    <string name="hit_regist_confirm">确认密码</string>
+
+    <string name="tip_login">登录中</string>
+    <string name="tip_regist_success">注册成功</string>
+    <string name="tip_force_offline">您的帐号已在其它地方登陆</string>
+    <string name="tip_invalid_url">无效播放地址</string>
+    <string name="tip_scan">将二维码放入框中，即可自动扫描</string>
+    <string name="tip_input_empty">用户名或密码不能为空</string>
+    <string name="tip_not_match">两次密码不一致</string>
+    <string name="tip_play_end">直播结束啦!</string>
+    <string name="tip_stop_push">发布结束</string>
+    <string name="tip_cs_failed">启动互动模块失败</string>
+
+    <string name="btn_login">登录</string>
+    <string name="btn_regist">注册</string>
+    <string name="btn_create">创建</string>
+    <string name="btn_exit">退出</string>
+    <string name="btn_return">返回视频列表</string>
+</resources>

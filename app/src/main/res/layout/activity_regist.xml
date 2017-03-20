@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        style="@style/moon_menu"
+        android:text="@string/title_regist"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/et_account"
+        style="@style/moon_edit"
+        android:hint="@string/hit_regist_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_password"
+        style="@style/moon_edit"
+        android:hint="@string/hit_regist_password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_password_confirm"
+        style="@style/moon_edit"
+        android:hint="@string/hit_regist_confirm"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/btn_regist"
+        style="@style/moon_button"
+        android:layout_marginTop="50dp"
+        android:text="@string/btn_regist"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+</LinearLayout>

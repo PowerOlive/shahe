@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        style="@style/moon_menu"
+        android:text="@string/title_create"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/info_bg"
+        android:layout_height="45dp">
+        <TextView
+            style="@style/moon_text"
+            android:text="@string/create_custom_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/et_title"
+            android:textSize="16dp"
+            android:text="@string/hit_default_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:background="@color/info_bg"
+        android:layout_height="45dp">
+        <TextView
+            style="@style/moon_text"
+            android:text="@string/create_custom_description"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/et_desc"
+            android:textSize="16dp"
+            android:text="android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/moon_tip"
+        android:text="@string/create_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:background="@color/info_bg"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <TextView
+            style="@style/moon_text"
+            android:text="@string/create_custom_rtmp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <com.tencent.moonsandbox.view.customview.CustomSwitch
+            android:id="@+id/cs_rtmp"
+            style="@style/moon_switch"
+            android:onClick="onClick"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <View
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <RelativeLayout
+        android:background="@color/info_bg"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <TextView
+            style="@style/moon_text"
+            android:text="@string/create_custom_interact"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <com.tencent.moonsandbox.view.customview.CustomSwitch
+            android:id="@+id/cs_interact"
+            style="@style/moon_switch"
+            android:onClick="onClick"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <TextView
+        style="@style/moon_tip"
+        android:text="@string/create_custom_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:background="@color/text_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_play_url"
+            android:hint="@string/hit_play_url"
+            android:textSize="16dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp" />
+        <ImageView
+            android:id="@+id/iv_play_qr"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/qrcode"
+            android:onClick="onClick"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btn_create"
+        style="@style/moon_button"
+        android:layout_marginTop="50dp"
+        android:text="@string/btn_create"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+</LinearLayout>
